@@ -3,8 +3,9 @@
     padding: 0;
 }
 body{
+    max-height: max-content;
     font-family: 'Oswald', sans-serif;
-    zoom: 26%;
+    zoom: 20%;
 }
 .content{
   width: 5008px;
