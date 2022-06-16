@@ -20,9 +20,9 @@ header{
 	vertical-align: middle;
 }
 .navbar a {
-	font-size: 20px;
-	width: 18vw;
-	height: 8vh;
+	font-size: 60px;
+	width: 320px;
+	height: 200px;
 	height: 100%;
     float: left;
     display: block;
@@ -37,7 +37,7 @@ header{
     color: black;
 }
 main {
-    margin-top: 30px;
+    margin-top: 230px;
 }
 
 
