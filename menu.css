@@ -5,9 +5,13 @@
 body{
     font-family: 'Oswald', sans-serif
 }
-  .VANISH{
+.content{
+  width: 5008px;
+  height: 3558px;
+}
+  /* .VANISH{
     display: none;
-  }
+  } */
   /* .Offka{
     display: none;
   } */
