@@ -6,11 +6,10 @@ header{
 		position: fixed;
 		top: 0px;
 		left: 0px;
-		height: 20000px;
 		-webkit-backface-visibility: hidden;
 }
 .navbar {
-	height: 200px;
+	height: 16vh;
 	justify-content: space-evenly;
     overflow: hidden;
     background-color: #333;
@@ -21,8 +20,8 @@ header{
 }
 .navbar a {
 	font-size: 100px;
-	width: 360px;
-	height: 200px;
+	width: 4vw;
+	height: 14vh;
 	height: 100%;
     float: left;
     display: block;
