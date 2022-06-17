@@ -19,8 +19,8 @@ header{
 	vertical-align: middle;
 }
 .navbar a {
-	font-size: 4vh;
-	width: 20vw;
+	font-size: 8vh;
+	width: 50vw;
 	height: 14vh;
 	height: 100%;
     float: left;
@@ -65,7 +65,7 @@ main {
 	width: 196px;
 	height: 196px;
 	position: relative;
-	border: 28px solid rgba(255,255,255,0.98);
+	border: 30px solid rgba(255,255,255,0.98);
 	animation: cssload-loader 2.6s infinite ease;
 		-o-animation: cssload-loader 2.6s infinite ease;
 		-ms-animation: cssload-loader 2.6s infinite ease;
