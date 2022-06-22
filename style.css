@@ -70,7 +70,25 @@ main {
 	line-height: 50px;
 	color: #fff; 
  } 
- .cssload-loader {
+#preloader.hide-preloader {
+    animation: hidePreloader;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+}
+.cssload-loader {
 	display: block;
 	margin:0 auto;
 	width: 64px;
@@ -95,11 +113,6 @@ main {
 		-webkit-animation: cssload-loader-inner 2.3s infinite ease-in;
 		-moz-animation: cssload-loader-inner 2.3s infinite ease-in;
 }
-
-
-
-
-
 @keyframes cssload-loader {
 	0% {
 		transform: rotate(0deg);
