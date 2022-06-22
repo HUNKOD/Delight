@@ -88,101 +88,116 @@ main {
     justify-content: center;
     background: #000000;
 }
-.cssload-piano {
-	margin: auto;
-	width: 27px;
-	height: 7px;
-	font-size: 7px;
+#circleG{
+	width:300px;
+	margin:auto;
 }
-.cssload-piano > div {
-	height: 100%;
-	width: 100%;
-	display: block;
-	margin-bottom: 0.6em;
-	animation: stretchdelay 1.08s infinite ease-in-out;
-		-o-animation: stretchdelay 1.08s infinite ease-in-out;
-		-ms-animation: stretchdelay 1.08s infinite ease-in-out;
-		-webkit-animation: stretchdelay 1.08s infinite ease-in-out;
-		-moz-animation: stretchdelay 1.08s infinite ease-in-out;
+
+.circleG{
+	background-color:rgb(255,255,255);
+	float:left;
+	height:64px;
+	margin-left:34px;
+	width:64px;
+	animation-name:bounce_circleG;
+		-o-animation-name:bounce_circleG;
+		-ms-animation-name:bounce_circleG;
+		-webkit-animation-name:bounce_circleG;
+		-moz-animation-name:bounce_circleG;
+	animation-duration:2.24s;
+		-o-animation-duration:2.24s;
+		-ms-animation-duration:2.24s;
+		-webkit-animation-duration:2.24s;
+		-moz-animation-duration:2.24s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+	border-radius:42px;
+		-o-border-radius:42px;
+		-ms-border-radius:42px;
+		-webkit-border-radius:42px;
+		-moz-border-radius:42px;
 }
-.cssload-piano .cssload-rect2 {
-	animation-delay: -0.9s;
-		-o-animation-delay: -0.9s;
-		-ms-animation-delay: -0.9s;
-		-webkit-animation-delay: -0.9s;
-		-moz-animation-delay: -0.9s;
+
+#circleG_1{
+	animation-delay:0.45s;
+		-o-animation-delay:0.45s;
+		-ms-animation-delay:0.45s;
+		-webkit-animation-delay:0.45s;
+		-moz-animation-delay:0.45s;
 }
-.cssload-piano .cssload-rect3 {
-	animation-delay: -0.72s;
-		-o-animation-delay: -0.72s;
-		-ms-animation-delay: -0.72s;
-		-webkit-animation-delay: -0.72s;
-		-moz-animation-delay: -0.72s;
+
+#circleG_2{
+	animation-delay:1.05s;
+		-o-animation-delay:1.05s;
+		-ms-animation-delay:1.05s;
+		-webkit-animation-delay:1.05s;
+		-moz-animation-delay:1.05s;
+}
+
+#circleG_3{
+	animation-delay:1.35s;
+		-o-animation-delay:1.35s;
+		-ms-animation-delay:1.35s;
+		-webkit-animation-delay:1.35s;
+		-moz-animation-delay:1.35s;
 }
 
 
 
-@keyframes stretchdelay {
-	0%, 40%, 100% {
-		transform: scaleX(0.8);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+@keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(74,74,74);
 	}
-	20% {
-		transform: scaleX(1);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 3px 4px rgba(255,255,255,0.4);
-	}
+
+	100%{}
 }
 
-@-o-keyframes stretchdelay {
-	0%, 40%, 100% {
-		-o-transform: scaleX(0.8);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+@-o-keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(74,74,74);
 	}
-	20% {
-		-o-transform: scaleX(1);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 3px 4px rgba(255,255,255,0.4);
-	}
+
+	100%{}
 }
 
-@-ms-keyframes stretchdelay {
-	0%, 40%, 100% {
-		-ms-transform: scaleX(0.8);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+@-ms-keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(74,74,74);
 	}
-	20% {
-		-ms-transform: scaleX(1);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 3px 4px rgba(255,255,255,0.4);
-	}
+
+	100%{}
 }
 
-@-webkit-keyframes stretchdelay {
-	0%, 40%, 100% {
-		-webkit-transform: scaleX(0.8);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+@-webkit-keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(74,74,74);
 	}
-	20% {
-		-webkit-transform: scaleX(1);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 3px 4px rgba(255,255,255,0.4);
-	}
+
+	100%{}
 }
 
-@-moz-keyframes stretchdelay {
-	0%, 40%, 100% {
-		-moz-transform: scaleX(0.8);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+@-moz-keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(74,74,74);
 	}
-	20% {
-		-moz-transform: scaleX(1);
-		background-color: rgb(255,255,255);
-		box-shadow: 0 3px 4px rgba(255,255,255,0.4);
-	}
+
+	100%{}
 }
