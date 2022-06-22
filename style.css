@@ -37,7 +37,6 @@ header{
     color: black;
 }
 main {
-	max-width: 100%;
     margin-top: 16vh;
 }
 #upbutton {   
@@ -94,10 +93,10 @@ main {
 .cssload-loader {
 	display: block;
 	margin:0 auto;
-	width: 20vw;
-	height: 20vh;
+	width: 2rem;
+	height: 2rem;
 	position: relative;
-	border: 4vw solid rgba(255,255,255,0.98);
+	border: 0.5rem solid rgba(255,255,255,0.98);
 	animation: cssload-loader 2.6s infinite ease;
 		-o-animation: cssload-loader 2.6s infinite ease;
 		-ms-animation: cssload-loader 2.6s infinite ease;
