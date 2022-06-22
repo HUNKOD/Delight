@@ -88,82 +88,101 @@ main {
     justify-content: center;
     background: #000000;
 }
-.cssload-loader{
-	position: relative;
-	width: 44px;
-	height: 44px;
-	left: 46%;
-	left: calc(50% - 22px);
-		left: -o-calc(50% - 22px);
-		left: -ms-calc(50% - 22px);
-		left: -webkit-calc(50% - 22px);
-		left: -moz-calc(50% - 22px);
-	
-	border-radius: 44px;
-	background-color: rgb(255,255,255);
-	transform-origin:	50% 50%;
-		-o-transform-origin:	50% 50%;
-		-ms-transform-origin:	50% 50%;
-		-webkit-transform-origin:	50% 50%;
-		-moz-transform-origin:	50% 50%;
-	animation: cssload-loader 1s ease-in-out infinite;
-		-o-animation: cssload-loader 1s ease-in-out infinite;
-		-ms-animation: cssload-loader 1s ease-in-out infinite;
-		-webkit-animation: cssload-loader 1s ease-in-out infinite;
-		-moz-animation: cssload-loader 1s ease-in-out infinite;
+.cssload-piano {
+	margin: auto;
+	width: 95px;
+	height: 24px;
+	font-size: 24px;
 }
-
-.cssload-loader:before{
-	content: "";
-	position: absolute;
-	background-color: rgb(255,255,255);
-	top: 0px;
-	left: -91px;
-	height: 44px;
-	width: 44px;
-	border-radius: 44px;
+.cssload-piano > div {
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin-bottom: 1.6em;
+	animation: stretchdelay 1.08s infinite ease-in-out;
+		-o-animation: stretchdelay 1.08s infinite ease-in-out;
+		-ms-animation: stretchdelay 1.08s infinite ease-in-out;
+		-webkit-animation: stretchdelay 1.08s infinite ease-in-out;
+		-moz-animation: stretchdelay 1.08s infinite ease-in-out;
 }
-
-.cssload-loader:after{
-	content: "";
-	position: absolute;
-	background-color: rgb(255,255,255);
-	top: 0px;
-	left: 91px;
-	height: 44px;
-	width: 44px;
-	border-radius: 44px;
+.cssload-piano .cssload-rect2 {
+	animation-delay: -0.9s;
+		-o-animation-delay: -0.9s;
+		-ms-animation-delay: -0.9s;
+		-webkit-animation-delay: -0.9s;
+		-moz-animation-delay: -0.9s;
+}
+.cssload-piano .cssload-rect3 {
+	animation-delay: -0.72s;
+		-o-animation-delay: -0.72s;
+		-ms-animation-delay: -0.72s;
+		-webkit-animation-delay: -0.72s;
+		-moz-animation-delay: -0.72s;
 }
 
 
 
-
-@keyframes cssload-loader{
-		0%{transform:rotate(0deg);}
-		50%{transform:rotate(180deg);}
-		100%{transform:rotate(180deg);}
+@keyframes stretchdelay {
+	0%, 40%, 100% {
+		transform: scaleX(0.8);
+		background-color: rgba(255,255,255,0.98);
+		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+	}
+	20% {
+		transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 12px 14px rgba(255,255,255,0.4);
+	}
 }
 
-@-o-keyframes cssload-loader{
-		0%{-o-transform:rotate(0deg);}
-		50%{-o-transform:rotate(180deg);}
-		100%{-o-transform:rotate(180deg);}
+@-o-keyframes stretchdelay {
+	0%, 40%, 100% {
+		-o-transform: scaleX(0.8);
+		background-color: rgba(255,255,255,0.98);
+		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+	}
+	20% {
+		-o-transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 12px 14px rgba(255,255,255,0.4);
+	}
 }
 
-@-ms-keyframes cssload-loader{
-		0%{-ms-transform:rotate(0deg);}
-		50%{-ms-transform:rotate(180deg);}
-		100%{-ms-transform:rotate(180deg);}
+@-ms-keyframes stretchdelay {
+	0%, 40%, 100% {
+		-ms-transform: scaleX(0.8);
+		background-color: rgba(255,255,255,0.98);
+		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+	}
+	20% {
+		-ms-transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 12px 14px rgba(255,255,255,0.4);
+	}
 }
 
-@-webkit-keyframes cssload-loader{
-		0%{-webkit-transform:rotate(0deg);}
-		50%{-webkit-transform:rotate(180deg);}
-		100%{-webkit-transform:rotate(180deg);}
+@-webkit-keyframes stretchdelay {
+	0%, 40%, 100% {
+		-webkit-transform: scaleX(0.8);
+		background-color: rgba(255,255,255,0.98);
+		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+	}
+	20% {
+		-webkit-transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 12px 14px rgba(255,255,255,0.4);
+	}
 }
 
-@-moz-keyframes cssload-loader{
-		0%{-moz-transform:rotate(0deg);}
-		50%{-moz-transform:rotate(180deg);}
-		100%{-moz-transform:rotate(180deg);}
+@-moz-keyframes stretchdelay {
+	0%, 40%, 100% {
+		-moz-transform: scaleX(0.8);
+		background-color: rgba(255,255,255,0.98);
+		box-shadow: 0 0 0 rgba(255,255,255,0.1);
+	}
+	20% {
+		-moz-transform: scaleX(1);
+		background-color: rgb(255,255,255);
+		box-shadow: 0 12px 14px rgba(255,255,255,0.4);
+	}
 }
