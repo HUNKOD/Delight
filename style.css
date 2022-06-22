@@ -1,5 +1,5 @@
 body{
-	width: 100%;
+	/* width: 100%; */
     background-color: #252525;
     color: white;
 }
@@ -37,8 +37,8 @@ header{
     color: black;
 }
 main {
-	width: 100%;
-    margin-top: 230px;
+	/* width: 100%; */
+    margin-top: 16vh;
 }
 #upbutton {   
 	transition: background-color .3s,
@@ -94,10 +94,10 @@ main {
 .cssload-loader {
 	display: block;
 	margin:0 auto;
-	width: 196px;
-	height: 196px;
+	width: 20vw;
+	height: 20vh;
 	position: relative;
-	border: 30px solid rgba(255,255,255,0.98);
+	border: 4vw solid rgba(255,255,255,0.98);
 	animation: cssload-loader 2.6s infinite ease;
 		-o-animation: cssload-loader 2.6s infinite ease;
 		-ms-animation: cssload-loader 2.6s infinite ease;
