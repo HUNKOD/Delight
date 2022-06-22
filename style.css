@@ -91,8 +91,8 @@ main {
 .cssload-loader {
 	display: block;
 	margin:0 auto;
-	width: 64px;
-	height: 64px;
+	width: 68px;
+	height: 68px;
 	position: relative;
 	border: 9px solid rgb(255,255,255);
 	animation: cssload-loader 2.3s infinite ease;
@@ -106,7 +106,7 @@ main {
 	vertical-align: top;
 	display: inline-block;
 	width: 100%;
-	background-color: rgba(255,255,255,0.98);
+	background-color: rgb(255,255,255);
 	animation: cssload-loader-inner 2.3s infinite ease-in;
 		-o-animation: cssload-loader-inner 2.3s infinite ease-in;
 		-ms-animation: cssload-loader-inner 2.3s infinite ease-in;
