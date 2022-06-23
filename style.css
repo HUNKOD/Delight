@@ -1,18 +1,16 @@
 body{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 header{
 		position: fixed;
 		top: 0px;
 		left: 0px;
-		/* -webkit-backface-visibility: hidden; */
-}/*поміняла назву класу */
+}
 .hnavbar {
 	height: 16vh;
 	justify-content: space-evenly;
 	vertical-align: middle;
-	 display: flex;/*дописала */
-    /* overflow: hidden; */ /*приховує те, що не влізло по висоті і ширині */
+	display: flex;
     background-color: #333;
     position: fixed;
     top: 0; 
@@ -23,14 +21,13 @@ header{
 	width: 60vw;
 	height: 14vh;
 	height: 100%;
-    /* float: left; */
     display: block;
 	background: #252525;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	transition: 0.8s;/*затримка для повільнішого відтворення */
+	transition: 0.8s;
 }
 .hnavbar a:hover {
     background: #ddd;
@@ -44,11 +41,8 @@ main {
     opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
-	/* display: inline-block;    */
 	background-color: #0f0f0f;   
-	/* width: 50px;    */
-	/* height: 50px;   */
-	display: block;/*дописала */
+	display: block;
 	text-align: center;   
 	border-radius: 4px;   
 	margin: 30px;   
@@ -56,8 +50,8 @@ main {
 	bottom: 30px;   
 	right: 30px;   
 	z-index: 1000; 
-	font-size: 5rem;/*дописала */
-	padding: 20px;/*дописала */
+	font-size: 5rem;
+	padding: 20px;
  } 
  #upbutton:hover {   
 	cursor: pointer;   
