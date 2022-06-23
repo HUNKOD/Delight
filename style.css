@@ -50,7 +50,7 @@ main {
 	bottom: 30px;   
 	right: 30px;   
 	z-index: 1000; 
-	font-size: 5rem;
+	font-size: 2rem;
 	padding: 20px;
  } 
  #upbutton:hover {   
@@ -65,8 +65,8 @@ main {
 	font-family: FontAwesome;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 2em;
-	line-height: 50px;
+	font-size: 1em;
+	line-height: 1em;
 	color: #fff; 
  } 
 #preloader.hide-preloader {
