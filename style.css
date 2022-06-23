@@ -17,11 +17,12 @@ header{
     width: 100%;
 }
 .hnavbar a {
+	display: flex;
+	vertical-align: middle;
 	font-size: 8vh;
-	width: 24vw;
-	height: 14vh;
-	height: 100%;
-    display: block;
+	width: 24%;
+	height: 90%;
+    /* display: block; */
 	background: #252525;
     color: #f2f2f2;
     text-align: center;
