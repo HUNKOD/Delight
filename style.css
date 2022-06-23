@@ -7,7 +7,7 @@ header{
 		left: 0px;
 		/* -webkit-backface-visibility: hidden; */
 }/*поміняла назву класу */
-.my-navbar {
+.hnavbar {
 	height: 16vh;
 	justify-content: space-evenly;
 	vertical-align: middle;
@@ -18,7 +18,7 @@ header{
     top: 0; 
     width: 100%;
 }
-.my-navbar a {
+.hnavbar a {
 	font-size: 8vh;
 	width: 60vw;
 	height: 14vh;
@@ -32,7 +32,7 @@ header{
     text-decoration: none;
 	transition: 0.8s;/*затримка для повільнішого відтворення */
 }
-.my-navbar a:hover {
+.hnavbar a:hover {
     background: #ddd;
     color: black;
 }
