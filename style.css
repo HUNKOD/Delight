@@ -17,16 +17,14 @@ header{
     width: 100%;
 }
 .hnavbar a {
-	display: flex;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 	font-size: 8vh;
 	width: 24%;
 	height: 90%;
-    /* display: block; */
+    display: block;
 	background: #252525;
     color: #f2f2f2;
     text-align: center;
-    /* padding: 14px 16px; */
     text-decoration: none;
 	transition: 0.8s;
 }
@@ -37,7 +35,7 @@ header{
 main {
     margin-top: 16vh;
 }
-#upbutton {   
+/* #upbutton {   
 	transition: background-color .3s,
     opacity .5s, visibility .5s;
     opacity: 0;
@@ -70,7 +68,7 @@ main {
 	font-size: 1em;
 	line-height: 1em;
 	color: #fff; 
- } 
+ }  */
 #preloader.hide-preloader {
     animation: hidePreloader;
 }
