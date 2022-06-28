@@ -21,10 +21,10 @@ header{
 	/* font-size: 5rem; */
 	width: 24%;
 	height: 90%;
-    display: block;
+    display: flex;
 	background: #252525;
     color: #f2f2f2;
-    text-align: center;
+    justify-content: center;
     text-decoration: none;
 	transition: 0.8s;
 }
