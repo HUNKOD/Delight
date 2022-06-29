@@ -8,6 +8,7 @@ header{
 }
 .navbarbutton{
       background-size: cover;
+	  background-repeat: no-repeat;
 }
 .hnavbar {
 	height: 5%;
