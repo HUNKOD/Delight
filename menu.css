@@ -18,7 +18,7 @@ body{
   
   /* Навигационные ссылки */
   .headNavbar a {
-    float: left;
+    float: none;
     padding: 4px;
     color: white;
     text-decoration: none;
@@ -43,6 +43,6 @@ body{
       float: none;
       display: block;
       width: 100%;
-      text-align: left; /* Если вы хотите, чтобы текст был выровнен по левому краю на небольших экранах */
+      text-align: center; /* Если вы хотите, чтобы текст был выровнен по левому краю на небольших экранах */
     }
   }
