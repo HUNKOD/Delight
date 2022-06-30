@@ -6,7 +6,7 @@ header{
 		top: 0px;
 		left: 0px;
 }
-.navbarbutton{
+/* .navbarbutton{
       background-size: cover;
 	  background-repeat: no-repeat;
 }
@@ -21,8 +21,8 @@ header{
     width: 100%;
 }
 .hnavbar a {
-	/* vertical-align: middle; */
-	/* font-size: 5rem; */
+	vertical-align: middle;
+	font-size: 5rem;
 	width: 24%;
 	height: 90%;
     display: flex;
@@ -31,7 +31,7 @@ header{
     justify-content: center;
     text-decoration: none;
 	transition: 0.8s;
-}
+} */
 /* .hnavbar a:hover {
     background: #ddd;
     color: black;
