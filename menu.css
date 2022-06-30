@@ -11,7 +11,7 @@ body{
 } */
 .headNavbar {
     display: flex;
-    width: 330vw;
+    width: 300vw;
     background-color: rgb(33, 33, 33);
     overflow: auto;
   }
