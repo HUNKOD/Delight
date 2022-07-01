@@ -7,7 +7,7 @@ body{
     /* zoom: 33%; */
 }
 .menuPic{
-    width: 30%;
+    max-width: 30%;
 }
 .headNavbar {
   justify-content: center;
