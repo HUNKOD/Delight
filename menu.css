@@ -7,7 +7,7 @@ body{
     /* zoom: 33%; */
 }
 .menuPic{
-    image-resolution: initial;
+    width: 30%;
 }
 .headNavbar {
   justify-content: center;
