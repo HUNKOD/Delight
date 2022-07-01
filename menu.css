@@ -6,9 +6,9 @@ body{
     font-family: 'Oswald', sans-serif;
     /* zoom: 33%; */
 }
-/* .menuPic{
-    max-width: 600px;
-} */
+.menuPic{
+    image-resolution: initial;
+}
 .headNavbar {
   justify-content: center;
     display: flex;
