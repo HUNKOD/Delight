@@ -7,9 +7,12 @@ body{
     font-family: 'Oswald', sans-serif;
     /* zoom: 33%; */
 }
-.menuPic{
-   width: -webkit-fill-available;
+img{
+  width: -webkit-fill-available;
 }
+/* .menuPic{
+
+} */
 header{
   box-sizing: content-box;
 }
