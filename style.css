@@ -6,36 +6,6 @@ header{
 		top: 0px;
 		left: 0px;
 }
-/* .navbarbutton{
-      background-size: cover;
-	  background-repeat: no-repeat;
-}
-.hnavbar {
-	height: 5%;
-	justify-content: space-evenly;
-	vertical-align: middle;
-	display: flex;
-    background-color: #333;
-    position: fixed;
-    top: 0; 
-    width: 100%;
-}
-.hnavbar a {
-	vertical-align: middle;
-	font-size: 5rem;
-	width: 24%;
-	height: 90%;
-    display: flex;
-	background: #252525;
-    color: #f2f2f2;
-    justify-content: center;
-    text-decoration: none;
-	transition: 0.8s;
-} */
-/* .hnavbar a:hover {
-    background: #ddd;
-    color: black;
-} */
 main {
     box-sizing: content-box;
 }

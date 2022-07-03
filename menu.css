@@ -22,7 +22,6 @@ header{
     background-color: rgb(33, 33, 33);
     overflow: auto;
   }
-  
   .headNavbar a {
     display: flex;
     vertical-align: middle;
@@ -34,22 +33,9 @@ header{
     width: 33.33%;
     text-align: center;
   }
-  
   .headNavbar a:hover {
     background-color: #000;
   }
-  
-  /* Стиль текущей/активной ссылки */
   .headNavbar a.active {
     background-color: #e4ff32;
   }
-  
-  /* Добавить отзывчивость - на экранах менее 500px, сделать навигационные ссылки появляются поверх друг друга, а не рядом друг с другом
-  @media screen and (max-width: 500px) {
-    .headNavbar a {
-      float: none;
-      display: flex;
-      width: 100%;
-      text-align: center; Если вы хотите, чтобы текст был выровнен по левому краю на небольших экранах
-    }
-  } */
