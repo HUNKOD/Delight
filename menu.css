@@ -6,6 +6,9 @@ body{
     font-family: 'Oswald', sans-serif;
     /* zoom: 33%; */
 }
+main{
+  margin-top: 18wh;
+}
 img{
   width: -webkit-fill-available;
 }
@@ -29,9 +32,4 @@ img{
 .topnav a:hover {
   background-color: rgb(85, 85, 85);
   color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
 }
