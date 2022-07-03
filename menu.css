@@ -17,7 +17,7 @@ header{
   box-sizing: content-box;
 }
 .headNavbar {
-    /* justify-content: center; */
+    justify-content: space-evenly;
     display: flex;
     vertical-align: middle;
     background-color: rgb(33, 33, 33);
@@ -31,7 +31,7 @@ header{
     color: white;
     text-decoration: none;
     font-size: 12vw;
-    width: 33.33%;
+    width: 27%;
     text-align: center;
   }
   .headNavbar a:hover {
