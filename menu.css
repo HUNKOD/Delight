@@ -17,17 +17,14 @@ img{
   display: flex;
   justify-content: space-evenly;
 }
-
 .topnav a {
   width: 24%;
   background-color: black;
   color: #f2f2f2;
   text-align: center;
-  /* padding: 14px 16px; */
   text-decoration: none;
-  font-size: 10vw;
+  font-size: 8vw;
 }
-
 .topnav a:hover {
   background-color: rgb(85, 85, 85);
   color: black;
