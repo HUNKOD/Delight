@@ -12,27 +12,29 @@ img{
 header{
   margin-bottom: 10wh;
 }
-.headNavbar {
-    justify-content: space-evenly;
-    display: flex;
-    vertical-align: middle;
-    background-color: rgb(33, 33, 33);
-    /* overflow: auto; */
-  }
-  .headNavbar a {
-    display: flex;
-    vertical-align: middle;
-    /* float: none; */
-    padding: 4px;
-    color: white;
-    text-decoration: none;
-    font-size: 12vw;
-    width: 27%;
-    text-align: center;
-  }
-  .headNavbar a:hover {
-    background-color: #000;
-  }
-  .headNavbar a.active {
-    background-color: #e4ff32;
-  }
+.topnav {
+  width: 28%;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  background-color: rgb(21, 21, 21);
+}
+
+.topnav a {
+  background-color: black;
+  color: #f2f2f2;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 10vw;
+}
+
+.topnav a:hover {
+  background-color: rgb(85, 85, 85);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
