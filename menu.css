@@ -8,7 +8,7 @@ body{
     /* zoom: 33%; */
 }
 .menuPic{
-    max-width: 30%;
+    width: min-content;
 }
 header{
   box-sizing: content-box;
