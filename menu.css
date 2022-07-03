@@ -10,13 +10,14 @@ img{
   width: -webkit-fill-available;
 }
 .topnav {
-  width: 28%;
+  
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(21, 21, 21);
 }
 
 .topnav a {
+  width: 28%;
   background-color: black;
   color: #f2f2f2;
   text-align: center;
