@@ -6,9 +6,9 @@ header{
 		top: 0px;
 		left: 0px;
 }
-main {
+/* main {
     box-sizing: content-box;
-}
+} */
 /* #upbutton {   
 	transition: background-color .3s,
     opacity .5s, visibility .5s;
