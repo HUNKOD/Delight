@@ -37,7 +37,7 @@ header{
     color: black;
 } */
 main {
-    margin-top: 16vh;
+    box-sizing: content-box;
 }
 /* #upbutton {   
 	transition: background-color .3s,

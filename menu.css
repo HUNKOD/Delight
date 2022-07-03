@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    box-sizing: content-box;
     font-family: 'Oswald', sans-serif;
     /* zoom: 33%; */
 }
@@ -10,7 +11,8 @@ body{
     max-width: 30%;
 }
 .headNavbar {
-  justify-content: center;
+    box-sizing: content-box;
+    justify-content: center;
     display: flex;
     vertical-align: middle;
     width: 300vw;
