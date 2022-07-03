@@ -17,18 +17,16 @@ header{
   box-sizing: content-box;
 }
 .headNavbar {
-    box-sizing: content-box;
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
     vertical-align: middle;
-    width: 300vw;
     background-color: rgb(33, 33, 33);
-    overflow: auto;
+    /* overflow: auto; */
   }
   .headNavbar a {
     display: flex;
     vertical-align: middle;
-    float: none;
+    /* float: none; */
     padding: 4px;
     color: white;
     text-decoration: none;
