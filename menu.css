@@ -10,6 +10,9 @@ body{
 .menuPic{
     max-width: 30%;
 }
+header{
+  box-sizing: content-box;
+}
 .headNavbar {
     box-sizing: content-box;
     justify-content: center;
@@ -20,7 +23,6 @@ body{
     overflow: auto;
   }
   
-  /* Навигационные ссылки */
   .headNavbar a {
     display: flex;
     vertical-align: middle;
@@ -33,7 +35,6 @@ body{
     text-align: center;
   }
   
-  /* Добавить цвет фона при наведении курсора мыши */
   .headNavbar a:hover {
     background-color: #000;
   }
