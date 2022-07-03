@@ -3,18 +3,14 @@
     padding: 0;
 }
 body{
-    box-sizing: content-box;
     font-family: 'Oswald', sans-serif;
     /* zoom: 33%; */
 }
 img{
   width: -webkit-fill-available;
 }
-/* .menuPic{
-
-} */
 header{
-  box-sizing: content-box;
+  margin-bottom: 10wh;
 }
 .headNavbar {
     justify-content: space-evenly;
