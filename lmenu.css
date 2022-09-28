@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    /* zoom: 33%; */
+}
+main{
+  margin-top: 8vh;
+}
+img{
+  width: -webkit-fill-available;
+}
+.topnav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.topnav a {
+  width: 28%;
+  background-color: #8C0D1E;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8vw;
+}
+.topnav a:hover {
+  background-color: #93323f;
+  color: black;
+}
