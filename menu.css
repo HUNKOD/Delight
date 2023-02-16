@@ -1,9 +1,10 @@
 *{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body{
-  font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    /* zoom: 33%; */
 }
 main{
   margin-top: 8vh;
@@ -15,19 +16,16 @@ img{
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
-  background-color: #252525;
 }
 .topnav a {
   width: 28%;
+  background-color: rgb(32, 32, 32);
+  color: #f2f2f2;
   text-align: center;
   text-decoration: none;
   font-size: 8vw;
 }
-.blackAndWhite{
-  background-color: #202020;
-  color: #fff;
-}
-.whiteAndBlack{
-  background-color: #fff;
-  color: #202020;
+.topnav a:hover {
+  background-color: rgb(85, 85, 85);
+  color: black;
 }
