@@ -4,46 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/2293037ed9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     <title>Меню</title>
-<style>
-  body{
-    background-color: #252525;
-  }
-  .topnav{
-  background-color: #252525;
-  }
-</style>
   </head>
 <body>
-
   <div id="preloader">
     <div class="cssload-loader"><div class="cssload-loader-inner"></div></div>
-   </div>
-
+  </div>
   <header>
     <div class="topnav">
-      <a href="kuhnya.html">Кухня</a>
-      <a href="napoi.html">Напої</a>
-      <a href="kokteyli.html">Коктейлі</a>
+      <a id="topnav-button-kuhnya" class="blackAndWhite" onclick="showKuhnya()">Кухня</a>
+      <a id="topnav-button-napoi" class="blackAndWhite" onclick="showNapoi()">Напої</a>
+      <a id="topnav-button-kokteli" class="blackAndWhite" onclick="showKokteli()">Коктейлі</a>
     </div>    
   </header>
   <main>
-     <img src="kuhnya1.jpg" alt="">
-     <img src="kuhnya2.jpg" alt="">
-     <img src="kuhnya3.jpg" alt="">
-     <img src="kuhnya4.jpg" alt="">
+    <div class="container-kuhnya">
+      <img src="kuhnya1.jpg" alt="">
+      <img src="kuhnya2.jpg" alt="">
+      <img src="kuhnya3.jpg" alt="">
+      <img src="kuhnya4.jpg" alt="">
+    </div>
+    <div class="container-napoi">
+      <img src="napoi1.jpg" alt="">
+      <img src="napoi2.jpg" alt="">
+      <img src="napoi3.jpg" alt="">
+      <img src="napoi4.jpg" alt="">
+    </div>
+    <div class="container-kokteli">
+      <img src="kokteli1.jpg" alt="">
+      <img src="kokteli2.jpg" alt="">
+      <img src="kokteli3.jpg" alt="">
+      <img src="kokteli4.jpg" alt="">
+    </div>
+     
 </main>
- <!-- <a id="upbutton"><i class="fa-solid fa-arrow-up-long"></i></a> -->
 </body>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
 <script src="script.js"></script>
 </html>
