@@ -2,44 +2,11 @@ body{
     color: rgb(255, 255, 255);
 }
 header{
-		position: fixed;
-		top: 0px;
-		left: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
 }
-/* #upbutton {   
-	transition: background-color .3s,
-    opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-	background-color: #0f0f0f;   
-	display: block;
-	text-align: center;   
-	border-radius: 4px;   
-	margin: 30px;   
-	position: fixed;   
-	bottom: 30px;   
-	right: 30px;   
-	color: white;
-	z-index: 1000; 
-	font-size: 2rem;
-	padding: 20px;
- } 
- #upbutton:hover {   
-	cursor: pointer;   
-	background-color: rgb(67, 67, 67); 
- } 
- #upbutton:active {   
-	background-color: #555; 
- } 
- #button::after {
-	content: "\f077";
-	font-family: FontAwesome;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 1em;
-	line-height: 1em;
-	color: #fff; 
- }  */
+
 #preloader.hide-preloader {
     animation: hidePreloader;
 }
